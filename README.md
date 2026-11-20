@@ -1,30 +1,39 @@
-# C Programming Assignment 3
+# C Programming – Assignment 3 (CO3)
 
 **Student:** Sedhu Madhavan V  
 **Register Number:** 1912260454  
 **Institution:** SIMATS, Chennai  
 **Repository:** https://github.com/sedhumadhavan134-afk/CSA02-1912260454-Assignment3
 
-## Status
-Repository structure initialized. The official question paper (Q1–Q7), including starter code, TODO markers, required input sizes, and expected outputs, is needed before the solutions, test evidence, measurements, and final report can be completed accurately. No question statements or expected outputs have been invented.
+## Compiler and execution
 
-## Environment
-- Compiler: GCC (record the exact installed version after compilation)
-- Compile: `gcc -std=c11 -Wall -Wextra -Wpedantic -O2 source.c -o program`
-- Run: `./program` (Windows: `program.exe`)
+- Compiler: GCC (record the version installed on your computer using `gcc --version`).
+- Compile a question: `gcc -std=c11 -Wall -Wextra -Wpedantic -O2 main.c -o main`
+- Run on Windows: `main.exe`
+- Run on Linux/macOS: `./main`
 
-## Questions
-Each question has its own folder. Add its source code, applicable input files, verified output evidence, algorithm notes, complexity analysis, and experiment results after matching the official question paper.
+Each question folder contains `main.c`. Compile and run each program from its own folder.
 
-| Folder | Marks |
-|---|---:|
-| Q1 | 6 |
-| Q2 | 7 |
-| Q3 | 7 |
-| Q4 | 7 |
-| Q5 | 6 |
-| Q6 | 7 |
-| Q7 | 10 |
+## Question topics represented in the reference repository
 
-## Execution
-Compile each source file from its question folder using the command documented in that folder. Compare actual output with the official expected output and retain genuine execution screenshots.
+| Folder | Topic |
+|---|---|
+| Q1 | Linear and binary search with comparison counters |
+| Q2 | Bubble, selection and insertion sort |
+| Q3 | Merge two descending sorted merit lists |
+| Q4 | Two-dimensional rainfall calculations and row-major layout |
+| Q5 | Character-array word count, palindrome, uppercase and reversal |
+| Q6 | Sort/search a name directory and detect duplicates |
+| Q7 | Election vote counting, invalid ballots, ranking and tie detection |
+
+## Important submission checklist
+
+1. Compare every program with the exact question paper and faculty-provided starter code before submission. These implementations were prepared using the public friend-repository structure as a reference; confirm that the wording, input limits, required algorithms and output format match your own assignment.
+2. Compile and execute every program locally with the compiler command above.
+3. Test normal, boundary and invalid inputs required by the assignment.
+4. Save genuine terminal screenshots in the corresponding question folder (for example, `Q1/output.png`). Do not submit placeholder or fabricated screenshots.
+5. Complete any required pseudocode, hand traces, performance tables, graphs and complexity discussion in the question's analysis/report.
+6. Record actual measured timings from your own machine; do not use invented benchmark values.
+
+**Student:** Sedhu Madhavan V  
+**Register Number:** 1912260454
